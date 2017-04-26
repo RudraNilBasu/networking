@@ -1,3 +1,10 @@
+/*
+ * Implementation of client using
+ * UDP
+ * 
+ * Author: Rudra Nil Basu <rudra.nil.basu.1996@gmail.com>
+ * 
+ */
 #include <sys/socket.h>
 #include <netdb.h>
 #include <string.h>
