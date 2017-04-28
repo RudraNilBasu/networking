@@ -1,3 +1,10 @@
+/*
+ * Implementation of server using
+ * UDP
+ * 
+ * Author: Rudra Nil Basu <rudra.nil.basu.1996@gmail.com>
+ * 
+ */
 #include <stdio.h>
 #include <netinet/in.h>
 #include <sys/types.h>
