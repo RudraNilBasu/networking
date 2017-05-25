@@ -10,7 +10,7 @@
 void error(char *msg)
 {
 	perror(msg);
-	exit(0);
+	exit(1);
 }
 
 int main(int argc, char *argv[])

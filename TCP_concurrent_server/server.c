@@ -10,6 +10,7 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <string.h>
+#include <unistd.h>
 
 int main()
 {
@@ -33,6 +34,7 @@ int main()
 	while (1) {
 		clilen = sizeof(cli_addr);
 		newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, &clilen);
+		printf("hola\n");
 		if (newsockfd < 0) {
 			printf("Accept error\n");
 			exit(1);
